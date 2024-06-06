@@ -1,0 +1,1 @@
+const t=document.querySelector(".cart-value"),r=e=>t.innerText=e.length,c=()=>{let e=localStorage.getItem("cartProduct");return e?(e=JSON.parse(e),r(e),e):[]},o=()=>{document.querySelector(".bar").addEventListener("click",()=>{document.querySelector("header").classList.toggle("show-nav")})};export{c as g,o as n,r as u};

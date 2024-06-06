@@ -1,0 +1,1 @@
+import"./footer-DxSWDYdx.js";const t=()=>{document.querySelector(".bar").addEventListener("click",()=>{document.querySelector("header").classList.toggle("show-nav")})};t();const r=()=>{let e=localStorage.getItem("cartProduct");return e?(e=JSON.parse(e),c(e),e):[]},a=document.querySelector(".cart-value"),c=e=>a.innerText=e.length;r();
